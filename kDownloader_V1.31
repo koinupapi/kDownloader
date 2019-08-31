@@ -1,7 +1,5 @@
 ::==============USER VARIABLES==============
 
-::Changelog is located at the very bottom of the file :)
-
 ::Set file path to Youtube-Dl directory
 set ytdldir=
 

@@ -1,0 +1,93 @@
+::==============USER VARIABLES==============
+
+::Changelog is located at the very bottom of the file :)
+
+::Set file path to Youtube-Dl directory
+set ytdldir=
+
+::Set filepath to download directory
+set downdir=
+::==========================================
+
+
+
+
+::=============CODE BELOW===================
+@echo off
+title kDownloader v1.31
+cd "%ytdldir%"
+
+:choice
+color 0B
+cls
+echo /
+echo //
+echo /
+echo ============================================================================================
+echo kDownloader -- Download videos using youtube-dl
+echo ============================================================================================
+echo /
+echo //
+echo /
+echo ============================================================================================
+echo 1) Solo video        2) Solo video (w/subs)
+echo 3) Solo video (mp4)  4) Youtube Playlist
+echo 5) Audio (mp3)       5) Audio (aac)
+echo 7) Audio (wav)       8) Audio (flac)
+echo 9) Update Checker    0) Exit
+echo ============================================================================================
+echo /
+echo //
+echo /
+set /p q=Enter the number of the option you want: 
+if /I "%q%" EQU "1" goto :solo
+if /I "%q%" EQU "2" goto :solosubs
+if /I "%q%" EQU "3" goto :solomp4
+if /I "%q%" EQU "4" goto :playlist
+if /I "%q%" EQU "5" goto :audiomp3
+if /I "%q%" EQU "6" goto :audioaac
+if /I "%q%" EQU "7" goto :audiowav
+if /I "%q%" EQU "8" goto :audioflac
+if /I "%q%" EQU "9" goto :updatechecker
+if /I "%q%" EQU "0" goto :exit
+goto :choice
+
+:solo
+echo /
+echo //
+echo /
+set /p soloURL=Paste the URL here please: 
+cls
+youtube-dl -c --no-check-certificate --recode-video mkv --postprocessor-args "-vcodec copy" -o "%downdir%/Solos/%%(title)s - %%(uploader)s.%%(ext)s" "%soloURL%"
+echo .
+echo ..
+echo .
+color 0A
+echo Your video has finished downloading. Press any button to return to the main menu.
+pause
+goto :choice
+exit
+
+:solosubs
+echo /
+echo //
+echo /
+set /p soloURL=Paste the URL here please: 
+cls
+youtube-dl --all-subs --no-check-certificate --recode-video mkv --postprocessor-args "-vcodec copy" -o "%downdir%/Solos/%%(title)s - %%(uploader)s.%%(ext)s" "%soloURL%"
+echo .
+echo ..
+echo .
+color 0A
+echo Your video has finished downloading. Press any button to return to the main menu.
+pause
+goto :choice
+exit
+
+:solomp4
+echo /
+echo //
+echo /
+set /p soloURL=Paste the URL here please: 
+cls
+youtube-dl -c --no-check-certificate --recode-video mp4 --postprocessor-args "-vcodec copy" -o "%downdir%/Solos/%%(title)s - %%(uploader)s.%%(ex

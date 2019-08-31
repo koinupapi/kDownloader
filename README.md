@@ -14,6 +14,8 @@
 
 
 ## Changelog
+v1.31 - 8.31.2019    | Removed "changelog" and "Production Crew" from batch file and placed it in "Readme.md" file.
+
 8.31.2019 - V1.3     | Changed default download format of videos to "mkv" extension, with the exception of option 3, which is still "mp4".
                        | credit to ShadowBoy01 for providing input :)
 

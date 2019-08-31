@@ -25,7 +25,7 @@ v1.2 - 8.31.2019     | Added a new option (now option 3) to download videos as "
 v1.1 - 8.30.2019     | Fixed "solo" and "solo subs" download options where the extension wasn't specified.
                      | credit to ShadowBoy01 for reporting this issue :)
 
-##### v1.0 - 8.30.2019     
+> v1.0 - 8.30.2019     
 
 | Added a changelog to file.
 

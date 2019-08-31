@@ -28,6 +28,7 @@ v1.1 - 8.30.2019     | Fixed "solo" and "solo subs" download options where the e
 > v1.0 - 8.30.2019     
 
 *Added a changelog to file.
+
 *Launched V1 into the world :)
 
 vbeta1.1 - 8.30.2019 | Added "--no-check-certificate" to ALL download codes.

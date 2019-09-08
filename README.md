@@ -91,3 +91,13 @@ vbeta1.0 - 8.30.2019
 koinupapi   | owner / coder
 
 ShadowBoy01 | debugger / partner / tester
+
+/---------------------------------
+
+## Credits
+
+This project did not create/write the fundamental code that makes this all work. This project ONLY added a GUI to it. All credit for the actual function goes to their respective owners/creators. Mad props to them, these tools are incredibly useful!
+
+[Youtube-DL](https://github.com/ytdl-org/youtube-dl)
+
+[Ffmpeg](https://ffmpeg.org/)

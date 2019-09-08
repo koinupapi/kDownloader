@@ -23,6 +23,17 @@ v1.33 - 9.07.2019
                      
 /---------------------------------
 
+v1.32 - 9.02.2019
+
+/-/ Added an experimental section to the GUI
+
+/-/ Experimental section includes video & playlist downloads with archive support! (downloaded videos will be remembered, so they wont' be redownloaded the next time!
+
+/-/ Experimental section includes downloading videos using links stored in a text file. Just paste the links into the specific text file, each link on its own line, save, and run the experimental code!
+
+/-/ Note: Experimental features are just that, experimental. It may work perfectly, it may not. Still working out some kinks.
+
+/---------------------------------
 
 v1.31 - 8.31.2019
 

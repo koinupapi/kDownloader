@@ -2,15 +2,15 @@
 
 ## How To Use:
 
-1) Download the "kDownloader_V#" batch file.
+1) Download the "kDownloader.7z" file.
 
-2) Open the file in a text editor like Notepad, Notepad++, etc.
+2) Extract it anywhere you'd like.
 
-3) Input your own filepaths for the variables listed at the very top of the file.
+3) Launch the GUI (batch file)
 
-4) Save.
+4) On first launch, you'll be guided through adding the directories to the program. (Directories will be remembered, even after closing and relaunching the program!
 
-5) Double-click to use! :D
+5) Download to your hearts content!
 
 
 ## Changelog

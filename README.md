@@ -1,5 +1,9 @@
 # kDownloader
 
+## Download
+
+[Mega](https://mega.nz/fm/fZh00IYD)
+
 ## How To Use:
 
 1) Download the "kDownloader.7z" file.

@@ -18,6 +18,30 @@
 
 
 ## Changelog
+v1.36 - 9.12.2019
+
+/-/ kDownloader NOW HAS AN ARCHIVE FUNCTION!
+
+/-/ HOW TO USE: When the feature is active (don't worry, you can go into settings and turn this function "off" or "on" later if you'd like), every download will be saved to the archive file (located in the "config" folder).
+
+/-/ What this means, is that if a video is already present in the archive file, then if you attempt to download that video again, it will check the archive file and tell you that it has already been downloaded.
+
+/-/ "Quick" download options in main menu are not affected by this feature, so if you want to keep "Archive" turned on, but for whatever reason need to re-download a video that has been previously downloaded, then the "Quick" options are your answer!
+
+/-/ ***QUICK NOTE***: kDownloader still functions the same, so even if you use "QuickMP3" option to download a video AGAIN, and the video is still in the directory, then it won't redownload because it's still there.
+
+/-/ Title check and config file has been removed, as it was a complicated solution to a simple problem.
+
+/---------------------------------
+
+v1.35.1 - 9.12.2019
+
+/-/ A check has been added for the title config file. If it exists, then it will print out the program name and version number as the title of the window. If it doesn't exist, it will just set the title to the program name.
+
+/-/ "Playlist with Archive" in the experimental menu has been updated to now download to "%download%\Video", instead of just directly downloading to the "%downloads%" directory.
+
+/---------------------------------
+
 v1.35 - 9.12.2019
 
 /-/ There is now an option to "re-add" the "Downloads" and "Youtube-DL" directories in the main menu.

@@ -14,6 +14,55 @@
 
 
 ## Changelog
+v1.35 - 9.12.2019
+
+/-/ There is now an option to "re-add" the "Downloads" and "Youtube-DL" directories in the main menu.
+
+/-/ Menus have been re-organized. Should be easier to navigate, and will make it easier for me to add new features/options in the future.
+
+/---------------------------------
+
+
+v1.34.2 - 9.12.2019
+
+/-/ Code has been edited to use "%~dp0" instead of "%cd%".
+
+/-/ Everything should work normally, but it's just a bit of clean-up to avoid headache inducing code.
+
+/---------------------------------
+
+v1.34.1 - 9.12.2019
+
+/-/ kDownloader will now use ".config" files to store configuration data, instead of ".bat" files.
+
+/---------------------------------
+
+v1.34 - 9.10.2019
+
+/-/ kDownloader will now auto-update Youtube-DL on first launch.
+
+/---------------------------------
+
+v1.33.3 - 9.10.2019
+
+/-/ kDownloader will now check for BOTH directory config files. If even one is missing, both directory config files will be deleted and the user will be sent to the directory selection screen.
+
+/---------------------------------
+
+v1.33.2 - 9.10.2019
+
+/-/ Fixed a bug that allowed the custom directory fields to be left blank. Currently, you are not allowed to leave them blank anymore, but you can just put a single letter and it will still accept it. This will be fixed in a later release. For now, just add the directory, please :).
+
+/---------------------------------
+
+v1.33.1 - 9.07.2019
+
+/-/ Updated "playlist with archives" download code in "experimental section" so that folders for the playlist are now titled "(playlist) by (uploader)" instead of just "(playlist)".
+
+/-/ Added a changelog to zip package.
+
+/---------------------------------
+
 v1.33 - 9.07.2019
 
 /-/ All the necessary files for kDownloader to work have now been packaged into a single zip file. Just download the file, extract it wherever you want, and open the GUI!

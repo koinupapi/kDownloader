@@ -2,7 +2,7 @@
 
 ## Download
 
-[Mega](https://mega.nz/fm/fZh00IYD)
+[Mega](https://mega.nz/#!zUxQ1IQJ!cOuMW2auOgHBs_kQURNwHT5rIpLDBD3e7YakdaImml8)
 
 ## How To Use:
 

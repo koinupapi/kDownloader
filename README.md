@@ -6,7 +6,7 @@
 
 ## How To Use:
 
-1) Download the "kDownloader.7z" file.
+1) Download the "kDownloader.7z" file from the Mega link provided above.
 
 2) Extract it anywhere you'd like.
 

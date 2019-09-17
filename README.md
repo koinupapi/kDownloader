@@ -8,9 +8,9 @@
 
 ## How To Use:
 
-1) Download the "kDownloader.7z" file from the Mega link provided above.
+1) Download the "kDownloader.7z" file from one of the provided links above.
 
-2) Extract it anywhere you'd like.
+2) Extract it anywhere you'd like. All the necessary files needed to make kDownloader work are present in the provided in the ".7z" file.
 
 3) Launch the GUI (batch file)
 
@@ -18,8 +18,133 @@
 
 5) Download to your hearts content!
 
+## Features
+
+/-/ "Quick options will download directly to "downloads\"
+
+/-/ "Single Video" options will download to "downloads\video\uploader\"
+
+/-/ "Playlist" video options will download to "downloads\video\playlist title\"
+
+/-/ All audio options will download to "downloads\audio\uploader\"
+
+/-/ Youtube-DL Update - On first launch, kDownloader checks for an update for Youtube-DL. This is normal, and will happen only once, on the VERY FIRST time you launch kDownloader. There is an option to manually check for Youtube-DL in the main menu.
+
+/-/ Archive - This feature simply means whenever you download a video using one of the download options in kDownloader (excluding the "Quick" options in the main menu), the video id and the source of the download will be saved to an "archive" config file. What this does is it prevents you from downloading the same video again. The best example of this is like so:
+-- There is youtube series called "Hermitcraft 6" on StressMonster101 's channel.
+-- I've used kDownloader to download the entire playlist. Easy. But the series, and as a result the playlist, is continually updated as new episodes are released. So what do I do? Just manually go into to the playlist and download the specific episode now?
+-- No, the best way to do this is use kDownloader with the archive feature turned ON. All the videos that are downloaded from the playlist will be saved to the list.
+-- Now, the next time that I use kDownloader to download the playlist, it will skip all the ones that are already on the list, and will only download the new videos!
+-- ** QUICK NOTE ** The archive feature will soon be made MUCH more powerful when I comebine it with the feature to paste links into a text file and kDownloader will auto download them! 
+
+/-/ Directories
+
+/-/-/ Default Directories
+
+/-/-/-/ So, in order to use kDownloader properly, kDownloader needs to know where you want it to download files to, as well as the location of the "youtube-dl.exe" file, and where its configuration files are located.
+
+/-/-/-/ If you select kDownloader to use the default directories, everything will be contained and stay inside of the "kDownloader" folder that you've extracted from the 7z file that you downloaded!
+
+/-/-/-/ Files will be download to "kDownloader\downloads"
+
+/-/-/-/ All configuration files, and "youtube-dl.exe" will be saved to "kDownloader\config"
+
+/-/-/ Custom Directories
+
+/-/-/-/ Just like before, kDownloader does need to know where "youtube-dl.exe" and other configuration files are located, as well as where to download files.
+
+/-/-/-/ If you use custom directories, kDownloader will guide you to which directory you need to enter at which point.
+
+/-/-/-/ Currently, you cannot leave these fields blank, BUT you can jsut enter random nonsense. I currently don't have a way to check for actual directory paths. So yes, you can technically break kDownloader by just entering a "1" or something when it asks you for the directory path, but then what's the point of using kDownloader?
+
+/-/ Main Menu
+
+/-/-/ Quick Video (MKV)
+
+/-/-/-/ As previously stated, this option does not fall subject to whether the "archive" feature is turned on or off.
+
+/-/-/-/ This option will download a video directly to the root of your "downloads" directory, and convert it to "mkv" if it isn't already in that format.
+
+/-/-/ Quick Audio (MP3)
+
+/-/-/-/ As previously stated, this option does not fall subject to whether the "archive" feature is turned on or off.
+
+/-/-/-/ This option will download an mp3 file directly to the root of your "downloads" directory, and convert it to "mp3" if it isn't already in that format.
+
+/-/-/ Video Menu - This will take you to the video menu, which gives you more options to download videos.
+
+/-/-/ Audio menu - This will take you to the audio menu, which gives you more options to download audio.
+
+/-/-/ Settings - This will take you to the settings menu, which gives you the chance to change some settings in kDownloader.
+
+/-/-/ Update Checker - This will manually check for updates to "youtube-dl.exe".
+
+/-/-/ Exit - This will close kDownloader.
+
+/-/-/ Experimental Menu - This will take you to the experimental menu in kDownlader, which gives you the chance to play around with any experimental download options currently in kDownloader.
+
+/-/ Video Menu
+
+/-/-/ Single Video (mkv) - will download a single video and convert it to ".mkv" format, if not already in that format.
+
+/-/-/ Single Video (w/subs) (mkv) - will download a video with all of its subtitle files! Will also convert video to ".mkv", if not already in that format.
+
+/-/-/ Single Video (mp4) - will download a single video and convert it to ".mp4" format, if not already in that format.
+
+/-/-/ Youtube Playlist (mkv) - will download an entire youtube playlist, and convert every video to ".mkv" format, if not already in that format.
+
+/-/-/ Main Menu - Takes you back to the main menu.
+
+/-/-/ Exit - Closes kDownloader.
+
+/-/ Audio Menu
+
+/-/-/ Audio (mp3) - Downloads the audio from a video and saves it as ".mp3" format, if not already in that format.
+
+/-/-/ Auido (aac) - Downloads the audio from a video and saves it as ".aac" format, if not already in that format.
+
+/-/-/ Audio (wav) - Downloads the audio from a video and saves it as ".wav" format, if not already in that format.
+
+/-/-/ Audio (flac) - Downloads the aduio from a video and saves it as ".flac" format, if not already in that format.
+
+/-/-/ Main Menu - Takes you back to the main menu.
+
+/-/-/ Exit - Closes kDownloader.
+
+/-/ Settings Menu
+
+/-/-/ Re-add Directories - Let's you change the directories used with kDownloader, in case you messed up, or just want to use new ones.
+
+/-/-/ Archive On/Off - Lets you change whether you have "archive" turned on or off, in case you get tired of dealing with the archive not letting you re-download videos!
+
+/-/-/ Main Menu - Takes you back to the main menu.
+
+/-/-/ Exit - Closes kDownloader.
+
+/-/ Experimental Menu
+
+/-/-/ Archive-able Playlists - This was the initial test code for the "archive" feature. No longer relevant and will be removed in a future update.
+
+/-/-/ Read links from a ".txt" file - What this does is that it reads all the links that you've saved to the specific ".txt" file, and then proceeds to download them in ".mkv" format. In order for the links to be read properly, each link needs to be on its own line.
+
+/-/-/-/ This is the new upcoming feature that will be made to work in conjunction with "archive"!
+
+/-/-/ Main Menu - Takes you back to the main menu.
+
+/-/-/ Exit - Closes kDownloader.
 
 ## Changelog
+
+/---------------------------------
+
+v1.36.1 - 9.17.2019
+
+/-/ Updated titles for some options, adding what file format they will download in.
+
+/-/ Changed the "changelog.txt" file to "readme.txt" file, and update the file by adding instructions, as well as a description of what each feature and menu item does!
+
+/---------------------------------
+
 v1.36 - 9.12.2019
 
 /-/ kDownloader NOW HAS AN ARCHIVE FUNCTION!
@@ -169,12 +294,7 @@ vbeta1.0 - 8.30.2019
 
 /---------------------------------
 
-## Production Crew
-koinupapi   | owner / coder
-
-ShadowBoy01 | debugger / partner / tester
-
-/---------------------------------
+::=============================</CHANGELOG>=============================::
 
 ## Credits
 

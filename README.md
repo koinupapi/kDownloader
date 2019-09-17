@@ -2,7 +2,9 @@
 
 ## Download
 
-[Mega](https://mega.nz/#!zUxQ1IQJ!cOuMW2auOgHBs_kQURNwHT5rIpLDBD3e7YakdaImml8)
+[Mega](https://mega.nz/#!vEBl1Y7T!0JCjIuFuZDyBF55RVf2oHf6qzxEDZ8I8o8RfkJcix60)
+
+[MediaFire](http://www.mediafire.com/file/43w0oe6vg51e5q7/kDownloader.7z/file)
 
 ## How To Use:
 

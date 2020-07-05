@@ -2,9 +2,9 @@
 
 ## Download
 
-[Mega](https://mega.nz/#!vEBl1Y7T!0JCjIuFuZDyBF55RVf2oHf6qzxEDZ8I8o8RfkJcix60)
+[Mega](https://mega.nz/file/rNxFka5Q#vHiImaVOpDO0eAF0bn_GipJkPytgVilq6vZq1ghY16w)
 
-[MediaFire](http://www.mediafire.com/file/43w0oe6vg51e5q7/kDownloader.7z/file)
+[MediaFire](http://www.mediafire.com/file/p1dsgj7rmyckdlu/kDownloader.zip/file)
 
 ## How To Use:
 
@@ -134,6 +134,12 @@
 /-/-/ Exit - Closes kDownloader.
 
 ## Changelog
+
+/---------------------------------
+
+v1.36.2 - 9.17.2019
+
+/-/ Updated YouTube-DL base file to latest version, which fixed the issue that the previous was having where it wouldn't download anything anymore. Issue was caused because YouTube-DL was running a version released on February 16th, 2020, and it wouldn't auto-update itself, or find the latest version. Issue should be fixed.
 
 /---------------------------------
 

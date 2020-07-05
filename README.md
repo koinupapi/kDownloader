@@ -8,9 +8,9 @@
 
 ## How To Use:
 
-1) Download the "kDownloader.7z" file from one of the provided links above.
+1) Download the "kDownloader.zip" file from one of the provided links above.
 
-2) Extract it anywhere you'd like. All the necessary files needed to make kDownloader work are present in the provided in the ".7z" file.
+2) Extract it anywhere you'd like. All the necessary files needed to make kDownloader work are present in the provided in the ".zip" file.
 
 3) Launch the GUI (batch file)
 
